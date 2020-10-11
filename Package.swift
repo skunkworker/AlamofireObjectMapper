@@ -16,7 +16,7 @@ let package = Package(name: "AlamofireObjectMapper",
   ],
   dependencies: [
     .package(url: "https://github.com/Alamofire/Alamofire", .upToNextMajor(from: Version(5,0,0))),
-    .package(url: "https://github.com/tristanhimmelman/ObjectMapper", .upToNextMajor(from: Version(3,5,1))),
+    .package(url: "https://github.com/tristanhimmelman/ObjectMapper", .upToNextMajor(from: Version(4,0,0))),
   ],
   targets: [
     .target(name: "AlamofireObjectMapper",
