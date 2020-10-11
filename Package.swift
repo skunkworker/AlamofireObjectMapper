@@ -15,8 +15,8 @@ let package = Package(name: "AlamofireObjectMapper",
     .library(name: "AlamofireObjectMapperDynamic", type: .dynamic, targets: ["AlamofireObjectMapper"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/Alamofire/Alamofire", .upToNextMajor(from: Version(6,0,0))),
-    .package(url: "https://github.com/tristanhimmelman/ObjectMapper", .upToNextMajor(from: Version(4,0,0))),
+    .package(url: "https://github.com/Alamofire/Alamofire", .upToNextMajor(from: Version(5,0,0))),
+    .package(url: "https://github.com/tristanhimmelman/ObjectMapper", .upToNextMajor(from: Version(3,5,1))),
   ],
   targets: [
     .target(name: "AlamofireObjectMapper",
